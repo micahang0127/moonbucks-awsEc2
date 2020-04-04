@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import SideContainer from '../../../containers/select/entire/AdminSelectContainer';
 import Map from '../../map';
-import MapVidio from '../../map/MapVidio';
 import classNames from 'classnames/bind';
 import styles from './entire.scss';
 
