@@ -27,7 +27,7 @@ class LoginTemplate extends Component {
                             <input type="text"
                                     className="form-control"
                                     name="userId"
-                                    placeholder=" test@google.com 입니다. "
+                                    placeholder=" test@google.com"
                             />
                         </div>
                         <div className="form-group">
@@ -35,7 +35,7 @@ class LoginTemplate extends Component {
                             <input type="password" 
                                     className="form-control"
                                     name="password"
-                                    placeholder=" test123! 입니다. "
+                                    placeholder=" test123! "
                             />
                         </div>
                     </div>

@@ -19,8 +19,8 @@ const HeaderTemplate = (props) => {
                 }
                 <div>
                     <span className={cx('text none')}>클릭해 주셔서 감사합니다. </span>
-                    <a href="#"><button className={cx('button side')}>NOTION 포트폴리오 보러가기</button></a>
-                    <a href="#"><button className={cx('button side')}>github</button></a>
+                    <a href="https://www.notion.so/Portfolio-772ed24acfc14bf1a1d9e40a89edcf6e"><button className={cx('button side')}>NOTION 포트폴리오 보러가기</button></a>
+                    <a href="https://github.com/micahang0127/moonbucks_react_node"><button className={cx('button side')}>github</button></a>
                 </div>
             </div>
                 {

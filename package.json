@@ -8,8 +8,7 @@
     "start": "node index.js",
     "server": "nodemon server.js",
     "client": "cd frontend && yarn start",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
-    "deploy": "pm2 start ecosystem.config.js --env production dev"
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "author": "",
   "license": "ISC",

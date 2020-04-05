@@ -1,6 +1,48 @@
 
 
 ### AWS EC2 배포 참고
+* 1. ASW 인스턴스 생성 ( EC2)
+ * AWS 회원가입 -> 카드연결(확인용1$) -> 콘솔 로그인
+ * 인스턴스 생성
+ * 인스턴스 사용자 포트 변경
+    1) 인스턴스 아래 보안그룹 launch-wizard-1 클릭
+    2) 작업 -> 인바운드 규칙 편집
+    3) 편집하고 저장
+
+* 2. RDS 생성 (mysql)
+ *  database 배포
+
+* 3. (AWS)Amazon Linux 인스턴스에서 node.js 설치
+  1)  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+  2) . ~/.nvm/nvm.sh
+  3) nvm install node
+  4) 확인 
+    node -e "console.log('Running Node.js ' + process.version)"
+	Running Node.js v13.12.0
+
+* 4. Git 설치
+1)  sudo yum install git -> y
+2) git clone url
+3) cd moonbucks_react_node
+4) npm i 
+5) npm run start
+
+
+* 5. Git clone (terminal실행- mac기준)
+1) ssh -i "ReactNodeEc2.pem" ~~~~
+   ssh 접속
+2) git clone [url]
+   코드 변경 시) git pull
+
+* 6. 실행 
+nohup yarn dev(명령어) &
+
+* 7. 종료
+1) ps -ef
+    구동 process 확인
+2) sudo kill -9  [ 종료하고 싶은 프로세스 PID ] 
+
+
 * * *
 #### ※ [개인 프로젝트] 프로젝트명 : Moonbucks_react_node
 * * *

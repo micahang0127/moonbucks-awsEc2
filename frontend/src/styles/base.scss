@@ -1,5 +1,5 @@
 // @import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");         // 나눔고딕
-// @import url("http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css");   // Nanum Gothic Coding
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css");   // Nanum Gothic Coding
  
 
 
@@ -11,8 +11,8 @@ body {
   height: 100%;
   font-size: 15px;
   // font-family:'나눔고딕', NanumGothic, 'Nanum Gothic';
-  // font-family:'Nanum Gothic Coding';
-  font-family: "Noto Sans KR", sans-serif;
+  font-family:'Nanum Gothic Coding';
+  // font-family: "Noto Sans KR", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
