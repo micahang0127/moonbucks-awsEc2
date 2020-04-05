@@ -15,7 +15,7 @@ module.exports = {
             // 배포환경시 적용될 설정 지정
             env_production: {
                 "PORT": 8080,
-                "NODE_ENV": "production"
+                "NODE_ENV": "production",
                 "server": "nodemon server.js",
                 "client": "cd frontend && yarn start",
                 "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
