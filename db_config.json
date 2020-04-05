@@ -1,7 +1,7 @@
 {
-    "host" : "localhost",
+    "host" : "moonbucksdb.c0hcsf2qmnwq.ap-northeast-2.rds.amazonaws.com",
     "port" : 3306,
     "user" : "root",
-    "password" : "1111",
+    "password" : "moonbucks",
     "database" : "moonbucks"
 }

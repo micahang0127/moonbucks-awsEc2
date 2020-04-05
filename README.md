@@ -1,9 +1,8 @@
 
 
-※ [개인 프로젝트] 
-프로젝트명 : Moonbucks_react_node
-================================
-
+### AWS EC2 배포 참고
+* * *
+#### ※ [개인 프로젝트] 프로젝트명 : Moonbucks_react_node
 * * *
 #### * Notion포트폴리오(chrome에서 작동): <https://www.notion.so/Portfolio-772ed24acfc14bf1a1d9e40a89edcf6e>
 #### * 개인 포트폴리오 : <https://moonbucks-react-node.herokuapp.com/adminHome>
