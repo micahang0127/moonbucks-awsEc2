@@ -10,7 +10,7 @@ export function infoWindowTemplate (store) {
     else { park = "미운영" }
 
     return (`
-    <div style=" padding: 8px; height: 250px; width: 240px;">
+    <div style=" padding: 8px; height: 240px; width: 240px;">
         <header style="margin: 5px 0px 10px 0px;">
             <a><strong style="font-size: 13px;">${store.name}</strong></a> 
         </header>

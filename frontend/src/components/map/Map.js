@@ -97,7 +97,7 @@ class Map extends Component {
                         
 
                         // 지도의 중심을 결과값으로 받은 위치로 이동 시킴
-                        this.map.setCenter(coords); 
+                        // this.map.setCenter(coords); 
                         
                       }
                     })    // end hadleAddress

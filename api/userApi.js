@@ -43,7 +43,7 @@ router.post('/login', (req, res, next) => {                                     
             return res.json({ Success : false, message : 'req.json 실패입니다.' }) 
                
         } 
-        return res.redirect('/ownerHome')      
+        return res.redirect('/adminHome')      
       }); 
     })(req, res, next);          // authenticate 반환 메서드에 이 인자를 넣어서 처리해야한다. 
     // return res.redirect('/ownerHome')   
