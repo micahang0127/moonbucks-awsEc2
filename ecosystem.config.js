@@ -16,6 +16,9 @@ module.exports = {
             env_production: {
                 "PORT": 8080,
                 "NODE_ENV": "production"
+                "server": "nodemon server.js",
+                "client": "cd frontend && yarn start",
+                "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
             }
         }
     ]
