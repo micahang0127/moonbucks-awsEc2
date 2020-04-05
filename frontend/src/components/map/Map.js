@@ -246,6 +246,7 @@ class Map extends Component {
       
         return (  
           <div>
+              <div className='text'>마커가 안보이면 새로고침해주세요</div>
               <div className="map_wrap">
                 <div id="map" style={style}></div>
                 <div id="menu_wrap" className="bg_white" > 
