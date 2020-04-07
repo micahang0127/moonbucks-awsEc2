@@ -4,7 +4,7 @@
 .header-template {
   width: 100%;
   padding: 10px;
-  background-color: lightgray;
+  background-color: black;
 
   @include media('>large') {
     .header-bar {
@@ -15,9 +15,7 @@
   .header-bar {
 
     .text {
-      .store-name {
-        color: blue;
-      }
+      color: aliceblue;
     }
    
     @include media('<medium') {
@@ -57,7 +55,7 @@
   .header-login {
     height: 180px;
     margin-top: 10px;
-    background: darkseagreen;
+    background: gainsboro;
     border-style: ridge;
   }
 
