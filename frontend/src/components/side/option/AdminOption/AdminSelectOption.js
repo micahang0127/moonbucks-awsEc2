@@ -15,7 +15,7 @@ const AdminSelectOption = (props) =>  {
                 <br/><br/><b>[Admin]-[전체지점 통계]</b>
             </div>
            <select value={props.value} onChange={props.handleChange}>
-                <option value="choice">전체매장</option>
+                <option disabled value="choice">전체매장</option>
                {
                    props.stores.map((store, i) => 
                         <option key={i} value={store}>{store}</option>

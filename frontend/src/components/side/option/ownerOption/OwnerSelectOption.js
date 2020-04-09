@@ -14,7 +14,7 @@ const OwnerSelectOption  =(props) => {
                 <br/><br/><b>[Owner]-[우리매장 통계]</b>
             </div>
             <select value={props.value} onChange={props.handleChange}>
-                    <option value="choice">2020's  전체월</option>
+                    <option disabled value="choice">2020's  전체월</option>
                 {
                     props.month.map((month, i) => 
                             <option key={i} value={month}>{month}</option>
