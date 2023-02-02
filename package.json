@@ -29,7 +29,7 @@
     "koa-session": "^5.13.1",
     "mariadb": "^2.2.0",
     "node-sass": "^4.13.1",
-    "open-color": "^1.7.0",
+    "open-color": "^1.9.1",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "react-redux": "^7.2.0",
